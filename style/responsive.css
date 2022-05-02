@@ -1,0 +1,57 @@
+@media screen and (max-width:700px){
+    header .container{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    }
+
+.boas-vindas{
+    margin-left: 3%;
+    margin-bottom: 3%;
+}  
+
+.descricao{
+    margin-left: 20%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    width: 60%;
+}
+
+.titulo-jogo-principal{
+    margin-left: 20%;
+    font-size: 30px;
+    margin-top:10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.botao{
+    background-color: white;
+    border: none;
+
+    padding: 13px 5px;
+    margin-left: 20%;
+    margin-bottom: 25px;
+}
+
+header .logo{
+    margin-left: 5px;  
+}
+
+.menu{
+    margin-left: 5px;
+}
+
+}
+
+@media screen and (max-width:1000px){
+
+    .descricao{
+        width: 60%;
+    }
+
+    header .menu1{
+        margin-right: 25%;
+    }
+
+}

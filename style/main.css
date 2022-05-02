@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header .logo{
+    color: red;
+    font-size: 40px;
+    margin-left: 3%;  
+    margin-right: 3%;
+    padding: 3px;
+}
+
+.menu1{
+    margin-right: 40%;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+header nav a:hover{
+    color: #aaa;
+}
+
+header .icone{
+    color: red;
+}
+
+.jogo-principal{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/capa-f1.webp);
+    background-size: cover;
+    height: 500px;
+    font-size: 20px;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 2px;
+}
+
+.boas-vindas{
+    margin-left: 3%;
+    margin-bottom: 10%;
+    font-size: 30px;
+}
+
+.descricao{
+    margin-left: 14%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    width: 40%;
+}
+
+
+.titulo-jogo-principal{
+    margin-left: 14%;
+    font-size: 30px;
+    margin-top:2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.botao{
+    background-color: white;
+    border: none;
+
+    padding: 13px 5px;
+    margin-left: 14%;
+    margin-bottom: 70px;
+    font-size: 12px;
+    border-radius: 10%;
+    
+    
+}
+
+.box-game{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.indice{
+    padding: 0.5px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 3px;
+}
+
+.carrosel-jogos{
+    margin-top: 5px;  
+    margin-left: 3px;   
+}
+
+
+
+
+
